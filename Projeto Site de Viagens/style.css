@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+body{background-color: rgb(235, 235, 235);}
+a{
+    text-decoration: none;
+    transition: 0,5s;
+    color: white;
+    letter-spacing: 1px;
+}
+nav{
+    padding: 5px 10px 10px 10px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(235, 35, 0);
+    font-size: x-large;
+}
+.Primeira{
+    background: url("imagens/london.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15%; 
+}
+.caixa1{
+    margin: 0px 2px 2px 2px;
+}
+.branco{
+    background-color: white;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list .active,
+.nav-list li:hover
+{
+    background-color: red;
+    opacity: 0,7;
+}
+li {
+    letter-spacing: 3px;
+    background-color:  black;
+    color: white;
+    font-size: larger;  
+    width: 100%;
+    text-align: center;
+    line-height: 2.5;
+}
+.caixa1 h1{
+    padding: 16px;
+    margin-top: 10px;
+}
+.fromto{
+    display: flex;
+}
+.from{
+    width: 50%;
+    background: none;
+    padding: 16px 8px 16px 16px;
+}
+.from input{
+    width: 100%;
+    border: 2px solid rgba(167, 167, 167, 0.507);
+    line-height: 1.5;
+    padding: 5px;
+}
+.to{
+    width: 50%;
+    background: none;
+    padding: 16px 16px 16px 8px;
+}
+.to input{
+    width: 100%;
+    border: 2px solid rgba(167, 167, 167, 0.507);
+    line-height: 1.5;
+    padding: 5px;
+}
+.caixa1 button{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    padding: 16px;
+    margin: 0px 16px 32px 16px;
+    border-style: none;
+    font-size: large;
+}
+.Segunda{
+    margin: 20px 10%;
+}
+.Segunda h2{
+    padding-top: 10px;
+    font-size: large;
+    font-size: medium;
+}
+.container-galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 200px;
+}
+.item-galeria{
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.item-galeria .img-galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h-1{
+    grid-row: span 1;
+}
+.h-2{
+    grid-row: span 2;
+}
+.w-1{
+    grid-column: span 1;
+}
+.w-2{
+    grid-column: span 2;
+}
+.item-galeria .title-galeria{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 16pt;
+    transition: 0,3s;
+    background: none;
+}
+.item-galeria .title-galeria:hover{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: coral;
+}
+.Terceira{
+    margin: 0px 10%;
+}
+.Terceira h1{
+    padding: 20px 0px;
+}.Terceira h3{
+    padding-bottom: 20px;
+}
+.container-galeria2{
+    background-color: white;
+    margin-right: 10px;
+    display: block;
+    background: white;      
+}
+.container-catalogo{
+    display: flex;
+}
+
+.container-galeria2 .img-galeria2{
+    object-fit: cover;
+    width: 100%;
+    
+}
+.txt-galeria{
+    background: none;
+    margin:0; 
+}
+.txt-galeria h1{
+    background-color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+.txt1{
+    background-color: white;
+    padding: 10px;
+    color: rgb(182, 182, 182);
+    font-weight: 300;
+}
+.txt2{
+    background-color: white;
+    padding: 10px;
+    font-weight: 300;
+}
+.txt3{
+    background-color: white;
+    padding: 10px;
+    font-weight: 300;
+    margin: 15px;
+}
+.Quarta{
+    margin: 30px 10%;
+    line-height: 1.5;
+
+}
+.bestoffers{
+    background-color: rgb(95, 95, 95);
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+}
+.bestoffers input{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 5px;
+    width: 100%;
+    border: 1px solid white;
+}
+.bestoffers button{
+    background-color: salmon;
+    margin: 15px 5px 5px 5px;
+    padding: 10px;
+    border-style: none;
+    color: white;
+}
+.contato h1{
+    margin: 15px 0px;
+    font-weight: 500;
+}
+.contato p{
+    margin: 7px 0px;
+}
+.contact{
+    padding: 10px 10px;
+    margin: 5px 0px;
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: medium;
+}
+.contato button{
+    background-color: black;
+    margin: 10px 0px;
+    padding: 15px 25px;
+    border-style: none;
+    color: white;
+    font-size: medium;
+}
+
+@media(max-width:758px){
+    .fromto{
+        display: block;
+    }
+    .from{
+        width: 100%;
+        background: none;
+        padding: 16px 8px 4px 16px;
+    }
+    .to{
+        width: 100%;
+        background: none;
+        padding: 0px 8px 16px 16px;
+    }
+    .container-galeria{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: 30vh;
+    }
+    .h-2{
+        grid-row: span 1;
+    }
+    .w-2{
+        grid-column: span 1;
+    }
+    .container-catalogo{
+    display: block;
+    }
+}
