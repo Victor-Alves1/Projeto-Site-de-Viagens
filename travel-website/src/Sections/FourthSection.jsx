@@ -20,7 +20,7 @@ export function FourthSection(){
             <input className="w-full p-3 leading-7 my-1 bg-neutral-100 border-neutral-300 border-2" placeholder="Name" type="text" name="" id="name"/>
             <input className="w-full p-3 leading-7 my-1 bg-neutral-100 border-neutral-300 border-2" placeholder="Email" type="email" name="" id="email"/> 
             <input className="w-full p-3 leading-7 my-1 bg-neutral-100 border-neutral-300 border-2" placeholder="message" type="text" name="" id="msg"/>
-            <button name="submit" type="submit">SEND MESSAGE</button>
+            <button className="bg-black text-white py-4 px-6 my-3" name="submit" type="submit">SEND MESSAGE</button>
         </div>
         </section>
         </>
