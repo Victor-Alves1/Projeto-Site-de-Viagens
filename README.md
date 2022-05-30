@@ -1,6 +1,13 @@
 # Projeto Site de Viagens
  Esse projeto foi proposto em um video da DevMedia e eu estou aprimorando-o para se tornar um site mais completo
  
+ Nesse trabalho foi utilizado:
+
+![icons8-html-5-48](https://user-images.githubusercontent.com/101835324/165111872-1db50d31-ff08-4c68-8f8d-372172a3e58d.png)
+![icons8-css3-48](https://user-images.githubusercontent.com/101835324/165111999-a12764fb-a618-4c85-9fc1-8a9fd68e4db0.png)
+![icons8-javascript-48](https://user-images.githubusercontent.com/101835324/165112022-48184c69-8e81-42cc-a27c-ac9bbc852aaa.png)
+![icons8-nativo-de-reagir-48](https://user-images.githubusercontent.com/101835324/165111932-c277d356-3bd2-4f63-9869-46be28cc984b.png)
+ 
  - [x] Foram usadas tag semânticas
  
  - [x] Site é responsivo
